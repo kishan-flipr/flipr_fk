@@ -72,10 +72,10 @@ public render() {
 return (
 <div className="count-top">
     <div className="countdown-cl">
-        <FlipClock units={[ { sep: '' , title: 'days' , type: 'days' , }, { sep: ' ' , title: 'hour' , type: 'hours' , }, { sep: ':' , title: 'minute' , type: 'minutes' , }, { sep: ':' , title: 'sec',  type: 'seconds' , } ]} type="countdown" count_to="2019-07-01 00:00:00" />
+        <FlipClock units={[ { sep: '' , title: 'days' , type: 'days' , }, { sep: ' ' , title: 'hour' , type: 'hours' , }, { sep: ':' , title: 'minute' , type: 'minutes' , }, { sep: ':' , title: 'sec',  type: 'seconds' , } ]} type="countdown" count_to="2019-07-10 00:00:00" />
     </div>
     <div className="banner-text">
-        <h2>Code Bootcamp 01 July 2019</h2>
+        <h2>Code Bootcamp 10 July 2019</h2>
         <h4><img src={Location} alt="LocationMap" className="locationmap-cl"/> Koramangala, Bengaluru | Map
         </h4>
         <div className="banner-button">
