@@ -116,6 +116,23 @@ class Checkout extends React.Component<IProps> {
 
 
   public render() {
+    if(!this.props.coursename.length){
+      return (
+        <div >
+        
+          &nbsp;
+          
+          &nbsp;
+          <div className="checkout-cl">
+  
+          <div className="course-header-cl"><h4>YOUR CART IS EMPTY</h4></div>
+          </div>
+          </div>
+  
+      );
+    }
+    else{
+  
     return (
       <div className="checkout-cl">
       <div className="course-header-cl"><h4>MY CART</h4></div>
@@ -150,6 +167,7 @@ class Checkout extends React.Component<IProps> {
       </div>
     );
   }
+}
 }
 
 const mapStateToProps = state => ({

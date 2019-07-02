@@ -92,7 +92,7 @@ class Header extends React.Component<IProps> {
          <li><a href="/#whyus">Why Us</a></li>
          <li><a href="/#ourstory">Our Story</a></li>
          <li><a href="/#gettouch">Get in Touch</a></li>
-         <li><Link to="/checkout" className="cart-icon"><i className="fa fa-shopping-cart"/></Link><span className="p1 fa-2x has-badge" data-count={this.props.count}/></li>
+         <li><Link to="/checkout" className="cart-icon"><i className="fa fa-shopping-cart"/></Link><span className="" data-count={this.props.count}/></li>
          <li><Link to="/myaccount" className="cart-icon"><i className="fa fa-list-alt" aria-hidden="true"/></Link></li>
          <li><Link to="/login" onClick={this.logoutFunction}><i className="fa fa-sign-out"/></Link></li>
          </ul>
